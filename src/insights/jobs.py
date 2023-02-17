@@ -8,7 +8,6 @@ def read(path: str) -> List[Dict]:
     with open(path) as file:
         reader = csv.DictReader(file)
 
-        print(list(reader))
         return list(reader)
 
 
